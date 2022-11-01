@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.main-head-container {
+  background-color: black;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker-heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+}
+
+.coin {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.coin-space {
+  margin-left: 10px;
+}
+.coin-type-head-container {
+  display: flex;
+  flex: column;
+  justify-content: space-around;
+  background-color: #092e33;
+}
+
+.values-type-head-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-conatainer {
+  border: #00e7ff 3px solid;
+  border-radius: 10px;
+}
+
+.unorder-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+}
